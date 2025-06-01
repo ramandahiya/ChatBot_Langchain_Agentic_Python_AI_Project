@@ -1,16 +1,17 @@
 # ChatBot + Langchain + Agentic AI, Python Project .... 
-Here's an project for chatbot build upon "Qwen/Qwen2.5-1.5B-Instruct" public model using langchain agentic AI. 
-Not authentication is required for this model, and read the instructions to run project:
-User can select for Agentic AI resposne from UI.
-To get agentic AI response use Toggle button.
-By default normal LLM respose will be displayed.
-Agentic AI is using two tools (Current time tool and Calculator), Check Screen shot
+
 ---
 
 # Langchain-Python-AgenticAI
 
 This guide walks you through setting up a Python environment, installing dependencies, configuring Pre trained model, and running a chatbot to get response.
 
+Here's an project for chatbot build upon "Qwen/Qwen2.5-1.5B-Instruct" public model using langchain agentic AI. 
+Not authentication is required for this model, and read the instructions to run project:
+User can select for Agentic AI resposne from UI.
+To get agentic AI response use Toggle button.
+By default normal LLM respose will be displayed.
+Agentic AI is using two tools (Current time tool and Calculator), Check Screenshot
 ---
 
 ## 1. Create a Virtual Environment
