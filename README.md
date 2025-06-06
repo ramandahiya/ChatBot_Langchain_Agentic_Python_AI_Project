@@ -1,4 +1,4 @@
-# ChatBot + Langchain + Agentic AI, Python Project .... 
+# ChatBot, Langchain, Agentic AI,LLM Python Project .... 
 
 ---
 
@@ -74,9 +74,19 @@ Check Screenshots
 -------------
 
 
+
 Run the following Python command for chatbot without UI:
 
 ```
 python qwen_llm_chatbot.py 
 ```
 -------------
+
+![Screenshot 2025-05-31 181329](https://github.com/user-attachments/assets/e5aeca68-1ae0-402e-b680-f90e8f9ab510)
+
+-------------
+
+![Screenshot 2025-06-01 192400](https://github.com/user-attachments/assets/da020ab8-7139-45f1-bc51-80226dfea32a)
+
+
+
