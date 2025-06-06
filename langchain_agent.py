@@ -151,9 +151,8 @@ my_agent = initialize_agent(
 
 def getResonsefromAgenticLLM(prompt):
     print("=========== Agent called ================")
-    res = my_agent.invoke(({"input": prompt}))
+    # res = my_agent.invoke(({"input": prompt}))
     response= my_agent.run(prompt)
-
     #res = my_agent.invoke(prompt)["output"]
     return response
     

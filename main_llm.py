@@ -18,11 +18,13 @@ class LLM(Singleton):
     model_name = "Qwen/Qwen2.5-1.5B-Instruct"
     tokenizer = None
     model = None
-   
+    tokenizer_path = "tokenizers/Qwen/Qwen2.5-1.5B-Instruct"
+    model_path = "models/Qwen/Qwen2.5-1.5B-Instruct"
+ 
     def __init__(self):   
         print("\n🔹 **Initializing chatbot:** 🔹\n")
-        self.tokenizer = AutoTokenizer.from_pretrained(f"tokenizers/{self.model_name}") 
-        self.model = AutoModelForCausalLM.from_pretrained(f"models/{self.model_name}")
+        self.tokenizer = AutoTokenizer.from_pretrained(f"{self.tokenizer_path}") 
+        self.model = AutoModelForCausalLM.from_pretrained(f"{self.model_path}")
 
 
     # Instance

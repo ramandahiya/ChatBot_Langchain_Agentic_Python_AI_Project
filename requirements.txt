@@ -1,7 +1,6 @@
 transformers
 langchain
 langchain-huggingface
-torch
 huggingface_hub
 accelerate
 hf-xet
