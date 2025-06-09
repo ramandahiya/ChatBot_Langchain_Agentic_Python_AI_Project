@@ -8,3 +8,4 @@ streamlit
 langchain-core
 langchain-community
 duckduckgo-search
+langgraph

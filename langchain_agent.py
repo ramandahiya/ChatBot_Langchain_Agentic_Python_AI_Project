@@ -11,7 +11,6 @@ from langchain_core.prompts import PromptTemplate
 
 from langchain.agents import Tool, create_react_agent, AgentExecutor
 from langchain.memory import ConversationBufferMemory
-from langchain_core.messages import AIMessage
 from langchain_core.output_parsers import JsonOutputParser
 from langchain.prompts import ChatPromptTemplate, HumanMessagePromptTemplate, SystemMessagePromptTemplate
 from langchain.prompts.chat import MessagesPlaceholder
@@ -44,7 +43,7 @@ def get_current_context():
     current_time = now.strftime("%Y-%m-%d %H:%M:%S %Z%z")
     current_location = "Delhi, Delhi, India"  # As per the context
     return f"The current time is {current_time} in {current_location}."
-
+  
 
 current_context_tool = Tool(
     name="Current Context",
